@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/admin/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="{% url 'home'%}">
+        <h1  class = 'home'>home</h1>
+    </a>
+    <h2>model</h2>
+    <div class="container">
+        <div>
+            {% for csv in csv_list %}
+                <a href="{% url 'get_csv' csv%}">
+                    {{csv}}
+                </a>
+                </br>
+                </br>
+            {% endfor %}
+        </div>
+        <div class='container_right'>
+            {% for csv in select_csv %}
+                    {{csv}}
+                </br>
+                </br>
+            {% endfor %}
+        </div>
+    </div>
+
+    <h3> 총 데이터의 수 : {{num}}</h3>
+
+    <form action= "{% url 'create_model' %}" method = 'POST'>{% csrf_token%}
+        <input name='name' placeholder ='파일명을 입력하세요' />
+        <br/>
+        <button type='submit'>모델 생성</button>
+    </form>
+    
+</body>
+</html>

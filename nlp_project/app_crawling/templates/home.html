@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/admin/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class = 'home'>home</h1>
+    <a href="{% url 'crawling' %}">
+        <h2>crawling</h2>
+    </a>
+    <a href="{% url 'model' %}">
+        <h2>model</h2>
+    </a>
+    </br>
+
+    <h2> 모델 list </h2>
+
+    {% for save_model in save_model_list %}
+        <a href="{% url 'use_model' save_model %}" >
+            <h4>{{save_model}}</h4>
+        </a>
+        </br>
+        </br>
+    {% endfor %}
+
+</body>
+</html>

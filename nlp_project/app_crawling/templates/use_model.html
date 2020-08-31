@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/admin/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <a href="{% url 'home'%}">
+        <h1  class = 'home'>home</h1>
+    </a>
+    <h2>use_model</h2>
+    <h3>{{name}}</h3>
+
+    <form action= "{% url 'connect_model' name %}" method = 'POST'>{% csrf_token%}
+        <input name='keyword' placeholder ='원하는 문장을 입력하세요' />
+        <br/>
+        <input name='date' placeholder ='얼마전에 작성했는지 입력하세요' />
+        <br/>
+        <button type='submit'>조회하기 > </button>
+    </form>
+
+    <h3>{{result}}</h3>
+
+</body>
+</html>

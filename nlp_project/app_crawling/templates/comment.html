@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/admin/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1  class = 'home'>title_list</h1>
+    
+    <a href="{% url 'save' keyword%}">
+        <h2>저장하기</h2>
+    </a> 
+
+    {% for comment in comments %} 
+        {% comment %} <a href="{% url 'comment' video.1 %}"> {% endcomment %}
+            {{comment}}
+        {% comment %} </a> {% endcomment %}
+        </br>
+        </br>
+    {% endfor %}
+</body>
+</html>
