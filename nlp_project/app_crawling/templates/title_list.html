@@ -7,7 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1  class = 'home'>title_list</h1>
+    <a href="{% url 'home'%}">
+        <h1  class = 'home'>home</h1>
+    </a>
+    <h2>title_list</h2>
 
     {% for video in videos %}
         <a href="{% url 'comment' video.1 keyword%}">

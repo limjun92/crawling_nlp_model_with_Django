@@ -6,32 +6,32 @@ import csv
 headers = {
     'authority': 'www.youtube.com',
     'x-youtube-device': 'cbr=Chrome&cbrver=85.0.4183.83&ceng=WebKit&cengver=537.36&cos=Windows&cosver=10.0',
-    'x-youtube-page-label': 'youtube.ytfe.desktop_20200827_1_RC0',
+    'x-youtube-page-label': 'youtube.ytfe.desktop_20200828_2_RC1',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36',
-    'x-youtube-variants-checksum': 'f4f4333904c24f6f5e03aa859305e5cd',
+    'x-youtube-variants-checksum': 'f684c9514fe7520997487b07864e3848',
     'content-type': 'application/x-www-form-urlencoded',
-    'x-youtube-page-cl': '328698102',
-    'x-spf-referer': 'https://www.youtube.com/watch?v=3nZf_hL4g8A',
+    'x-youtube-page-cl': '329220766',
+    'x-spf-referer': 'https://www.youtube.com/watch?v=nfMz11N43P4',
     'x-youtube-utc-offset': '540',
     'x-youtube-client-name': '1',
-    'x-spf-previous': 'https://www.youtube.com/watch?v=3nZf_hL4g8A',
-    'x-youtube-client-version': '2.20200827.01.00',
+    'x-spf-previous': 'https://www.youtube.com/watch?v=nfMz11N43P4',
+    'x-youtube-client-version': '2.20200829.02.01',
     'x-youtube-identity-token': 'QUFFLUhqbXRwWUVVZ2hpdGc1dmRNVUEwaHZVejJoTGRpQXw=',
     'x-youtube-time-zone': 'Asia/Seoul',
-    'x-youtube-ad-signals': 'dt=1598770986436&flash=0&frm&u_tz=540&u_his=10&u_java&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_nplug=3&u_nmime=4&bc=31&bih=843&biw=874&brdim=-7%2C0%2C-7%2C0%2C1920%2C0%2C1812%2C1047%2C889%2C843&vis=1&wgl=true&ca_type=image&bid=ANyPxKpTsUeLx6NMPBTtMTpsZZgk03Fz6SNgcQQp4LzBS4tUZCTJGOJWVvik8TEPziA5qSuTsUTlnMI5dx6svWrK7C5kgRmh0w',
+    'x-youtube-ad-signals': 'dt=1599010970588&flash=0&frm&u_tz=540&u_his=3&u_java&u_h=1080&u_w=1920&u_ah=1040&u_aw=1920&u_cd=24&u_nplug=3&u_nmime=4&bc=31&bih=843&biw=427&brdim=602%2C0%2C602%2C0%2C1920%2C0%2C1325%2C1047%2C443%2C843&vis=1&wgl=true&ca_type=image&bid=ANyPxKrkOkPgVMemvpBwoYZp5xDK26ZRZ92T8qSJMqAXvzJQoSphzHkNZP4RklSg0NiHOvbiRh0xoKmGKHDc_TBe3Aow7BU98A',
     'accept': '*/*',
     'origin': 'https://www.youtube.com',
-    'x-client-data': 'CIa2yQEIo7bJAQjBtskBCKmdygEIlqzKAQiZtcoBCP+8ygEI+MfKAQjnyMoBCOnIygEItMvKAQiV1soBCLzXygEY97/KAQ==',
+    'x-client-data': 'CIa2yQEIo7bJAQjBtskBCKmdygEIlqzKAQiZtcoBCPbHygEI+MfKAQjnyMoBCOnIygEItMvKAQiV1soBCLzXygEY97/KAQ==',
     'sec-fetch-site': 'same-origin',
     'sec-fetch-mode': 'cors',
     'sec-fetch-dest': 'empty',
-    'referer': 'https://www.youtube.com/watch?v=3nZf_hL4g8A',
+    'referer': 'https://www.youtube.com/watch?v=nfMz11N43P4',
     'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
-    'cookie': 'VISITOR_INFO1_LIVE=kr8ukn4-Fsc; LOGIN_INFO=AFmmF2swRQIgMGpQO8CQl8XYfROj-WQeSt1ekkT10jQhapVMQPK21pgCIQC6H_wY6x5j4vdBmrt_eXkyonVIBa8SCjE3jaCTCfzPUg:QUQ3MjNmejNVSHE5ZUtyd2oxNGIxX1pfdV9xZ1A2Zmh6NWhNLUNLWnBBalNMZ0lxV3BTM3VfYnJBYVB5cTI5SWc0MDRWQkRTV0dXemthTXh6ZnE0RG1IZ19CQ0Y5WWxTUnJqdWJfNGlHb3Z4ZndJM2NNTXBoQjVFbGJSbGMzdzVxWU5wYVgzUUJtU2d6eVF2RWhXYnBkaU5JamFHRzRnS09FSWo4cEtNRmZzNXVMRnhVR2trRHFsb0dSZFdvSmd1QXFfeTNvX1UzdkNZ; PREF=f1=50000000&al=ko&HIDDEN_MASTHEAD_ID=TjytsrLrwJA&f4=4000000; HSID=A4UB21HTOf3KWEXi_; SSID=Av1Gn3RBrT1XlGtmo; APISID=J0kDz6Bh-0UpSQjq/AETty_fsS0FHceBjT; SAPISID=KW-mnVc4raM4dOse/A3wBYTchBq16Yjj8e; __Secure-3PAPISID=KW-mnVc4raM4dOse/A3wBYTchBq16Yjj8e; __Secure-3PSID=0gd_sZBz7S4ACnCEd-nYsfXEfktx-aKxU75L0zeuCtI0fVHqj-f3sfjqtDuM9r8enBCEig.; SID=0gd_sZBz7S4ACnCEd-nYsfXEfktx-aKxU75L0zeuCtI0fVHqZSzJDNzikZpWhK9PUwE0bw.; YSC=S01v4JCy_jU; SIDCC=AJi4QfE8OiU9JJVUMP6uZN8ks1myPvhEmUsfdSos7CNIQszaOHqFCsL3o0FcxsAAEaqRguGAZwEE; __Secure-3PSIDCC=AJi4QfEmbsJT99Nh6E9BfbxwTMY4_-X84JfBYFQgCkBKiRrIq9VGlqTyF9miLVhUcJIpnZ6VyCA',
+    'cookie': 'VISITOR_INFO1_LIVE=kr8ukn4-Fsc; LOGIN_INFO=AFmmF2swRQIgMGpQO8CQl8XYfROj-WQeSt1ekkT10jQhapVMQPK21pgCIQC6H_wY6x5j4vdBmrt_eXkyonVIBa8SCjE3jaCTCfzPUg:QUQ3MjNmejNVSHE5ZUtyd2oxNGIxX1pfdV9xZ1A2Zmh6NWhNLUNLWnBBalNMZ0lxV3BTM3VfYnJBYVB5cTI5SWc0MDRWQkRTV0dXemthTXh6ZnE0RG1IZ19CQ0Y5WWxTUnJqdWJfNGlHb3Z4ZndJM2NNTXBoQjVFbGJSbGMzdzVxWU5wYVgzUUJtU2d6eVF2RWhXYnBkaU5JamFHRzRnS09FSWo4cEtNRmZzNXVMRnhVR2trRHFsb0dSZFdvSmd1QXFfeTNvX1UzdkNZ; PREF=f1=50000000&al=ko&HIDDEN_MASTHEAD_ID=TjytsrLrwJA&f4=4000000; SID=0wd_sYOw8Bils0iBx3lPOnFgI9O4Hfinb63varyiGrCiiTK2cCEQPIrX3cfECd-lesUQYw.; __Secure-3PSID=0wd_sYOw8Bils0iBx3lPOnFgI9O4Hfinb63varyiGrCiiTK2h3RoS7Iu1q1M2q3F_vTSQQ.; HSID=AqNGx7vnmzaiAIGDm; SSID=AbVM1DW3tGc4TKD4K; APISID=GKq7sTfqp3OARl1W/A9Axk92q67DM_AU5u; SAPISID=ZSnl7S2v6qO5EhhH/AQiS7NXuBNH6vgOta; __Secure-3PAPISID=ZSnl7S2v6qO5EhhH/AQiS7NXuBNH6vgOta; YSC=GQjbnL59Gd0; SIDCC=AJi4QfEYnDPPBKHCo75eCgFmVPPM-R0z7_mSx0lgWlB_aBUp9NNaGx8C8-4b7YOt3Tm-b1IB1eyb; __Secure-3PSIDCC=AJi4QfFlFgwxeNU0cjwFrB9DYvqjTZsp1ihHNqrBNSFKYGHw-dqKhOmYE_4T7GqXxgOWSLorZpQ',
 }
 
 data = {
-  'session_token': 'QUFFLUhqbTZLU09wcjRNRldidlVTLVBsbnVISEgxM3o2UXxBQ3Jtc0tsdFVYOFdUT2NWbUVfZjBfNGRNWEdoWk1VRTdQOVkzdWEwSTVHYTFMU2NJVDlZdWdoNUFmdUc2cjlPZExDYVRMeXJfLVdzMjNBQ3Y5cmJVeFNmR2oyaERyUFk1M3lHUG1NX1lHMzlTTl9mb2dMdVRaaWVpUUNxX3VQVlpldTZybEdyand1Rk9DaUU5dkQ1N0VWMkFSdVZncWNrZnc='
+  'session_token': 'QUFFLUhqa2dva29CeWItTEx4R2pyY3o4RTBHZlFENU1jZ3xBQ3Jtc0tsbkMzZ2lPZThyQlJWaU9LV1UzQVBuNGxWVFNTVFRWOXdCNF9UMDI3eDFRNUdvYjJTSmRYdUhscW1VODJ4NXlyRC1YbWlTbkRKMENTa1VvRWRnSFhDektIM2RyRnNCTE1RMGNvOVdVNWozcjQ4UllmS0owamRYVE5hbVVvdnUzSFA3Ny1YYzF3N1RjSkd0MHBTTWZJeWxSSF9rZ2c='
 }
 
 # 3. 댓글과 좋아요수 다음 댓글창 파라미터를 가져온다

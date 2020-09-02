@@ -16,14 +16,12 @@
     </a>
     </br>
 
-    <h2> 모델 list </h2>
+    <h2 class = 'home'> 모델 list </h2>
 
     {% for save_model in save_model_list %}
         <a href="{% url 'use_model' save_model %}" >
             <h4>{{save_model}}</h4>
         </a>
-        </br>
-        </br>
     {% endfor %}
 
 </body>

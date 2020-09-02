@@ -7,7 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1  class = 'home'>title_list</h1>
+    <a href="{% url 'home'%}">
+        <h1  class = 'home'>home</h1>
+    </a>
+    
+    <h1>title_list</h1>
     
     <a href="{% url 'save' keyword%}">
         <h2>저장하기</h2>
