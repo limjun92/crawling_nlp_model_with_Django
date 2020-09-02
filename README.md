@@ -26,3 +26,5 @@ LSTM 모델을 사용
 학습이 완료된 모델을 저장한다
 
 ![로지스틱시그모이드함수](/assets/images/ai/로지스틱시그모이드함수.PNG)
+
+![pie.PNG](/img/pie.PNG) 
