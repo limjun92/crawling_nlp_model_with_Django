@@ -25,5 +25,16 @@ LSTM 모델을 사용
 
 학습이 완료된 모델을 저장한다
 
+![main.PNG](/img/main.PNG)
 
-![crawling_search](/img/crawling_search.PNG) 
+![crawling_search](/img/crawling_search.PNG)  
+
+![crawling_title_list.PNG](/img/crawling_title_list.PNG)  
+
+![crawling_comment_list.PNG](/img/crawling_comment_list.PNG)  
+
+![main_2.PNG](/img/main_2.PNG)  
+![model_predict.PNG](/img/model_predict.PNG)  
+![model_predict_2.PNG](/img/model_predict_2.PNG)  
+![model_training_csv.PNG](/img/model_training_csv.PNG)  
+![model_training_csv_2.PNG](/img/model_training_csv_2.PNG)  
