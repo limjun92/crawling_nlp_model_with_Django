@@ -40,19 +40,27 @@ LSTM 모델을 사용
 
 ![main_2.PNG](/img/main_2.PNG)
 
+---
+
 * crawling에서는 크롤링하고 싶은 키워드와 몇개 가져올지 개수를 입력한다
 
 ![crawling_search](/img/crawling_search.PNG)  
+
+---
 
 * title_list에서 '사이코지만 괜찮아'라는 키워드로 상위 5개의 영상 정보 검색해서 가져온다
 * 영상이름, 영상ID, 영상업로드날짜, 좋아요/싫어요 수, 조회수, 댓글수 순서로 가져온다
 
 ![crawling_title_list.PNG](/img/crawling_title_list.PNG)  
 
+---
+
 * comment에는 title_list에서 하나의 영상정보를 클릭하면 그 영상이 가지고 있는 댓글을 가져온다
 * 저장하기를 클릭하면 '검색키워드이름_댓글수.csv'로 저장한다
 
 ![crawling_comment_list.PNG](/img/crawling_comment_list.PNG)  
+
+---
 
 * model로 가면 내가 저장해서 가지고 있는 csv파일을 확인할 수 있다
 * 아까 저장해던 '사이코지만 괜찮다_364.csv'를 확인할 수 있다
@@ -61,18 +69,26 @@ LSTM 모델을 사용
 
 ![model_training_csv.PNG](/img/model_training_csv.PNG)  
 
+---
+
 * 여러 csv파일을 합쳐서 데이터의 양을 늘린다
 * 생성될 모델의 이름을 입력하고 학습을 진행한다
 
 ![model_training_csv_2.PNG](/img/model_training_csv_2.PNG) 
 
+---
+
 * home에서 생성된 모델을 확인할 수 있다
 
 ![main.PNG](/img/main.PNG)  
 
+---
+
 * 해당 모델을 클릭하면 해당 모델을 예측하는 페이지로 이동한다
 
 ![model_predict.PNG](/img/model_predict.PNG)  
+
+---
 
 * 댓글로 등록할 예상 문장을 입력하고 지날 날짜를 입력하면 예측을 한다
 
