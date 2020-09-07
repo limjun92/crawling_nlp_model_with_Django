@@ -78,7 +78,7 @@ LSTM 모델을 사용
 
 ---
 
-* home에서 생성된 모델을 확인할 수 있다
+* home의 model_list에서 생성된 모델을 확인할 수 있다
 
 ![main.PNG](/img/main.PNG)  
 
