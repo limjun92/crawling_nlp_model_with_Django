@@ -33,6 +33,10 @@ LSTM 모델을 사용
 
 학습이 완료된 모델을 저장한다
 
+## curl to python requests
+
+https://curl.trillworks.com/
+
 # 페이지 설명
 
 * **home에서는 크롤링을 할지 모델 학습을 할지 선택할 수 있다**
